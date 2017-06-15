@@ -15,6 +15,12 @@ SqliteDeveloper,是基于[SqliteLookup](https://github.com/YeDaxia/SqliteLookup)
 
 [github](https://github.com/pengyuantao/SqliteDeveloper)，喜欢的话记得star哦！
 
+#### 效果图
+
+![device-2017-06-15-141822 00_00_00-00_00_53.gif](http://upload-images.jianshu.io/upload_images/1460021-1599ec8af4f9df0b.gif?imageMogr2/auto-orient/strip)
+
+
+
 #### 下载
 
 ![下载apk二维码](http://upload-images.jianshu.io/upload_images/1460021-5774f6033c4edde0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
