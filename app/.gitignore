@@ -1,0 +1,6 @@
+/build
+/app-release.apk
+/src/debug
+/src/release
+/src/androidTest
+src/test

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shadow_start">#80000000</color>
+    <color name="shadow_end">#00000000</color>
+    
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_title_color">#CD8500</color>
+    
+    <color name="listitem_normal_color">#EEE8AA</color>
+    <color name="listitem_pressed_color">#F0E68C</color>
+    <color name="listitem_line_color">#CDCDB4</color>
+    
+    <color name="table_header_bg_color">#FFA54F</color>
+    <color name="table_header_line_color">#FFFFFF</color>
+    <color name="table_odd_cell_bg_color">#D4D4D4</color>
+    <color name="table_even_cell_bg_color">#D1EEEE</color>
+    <color name="table_header_text_color">#333333</color>
+    <color name="table_cell_text_color">#888888</color>
+    
+    <color name="line_edit_color">#BDB76B</color>
+    <color name="edit_text_color">#458B00</color>
+    
+    <color name="error_text_color">#EE5C42</color>
+    
+    <color name="disable_color">#CCCCCC</color>
+    <color name="dialog_bg">#88000000</color>
+    <color name="select_line_color">#CDCDB4</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#CD8500</color>
+    <color name="colorAccent">#FF4081</color>
+
+</resources>

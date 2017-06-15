@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/include_title" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_db"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/iv_add_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/bg_big_add_db"
+        android:layout_centerInParent="true"
+        android:text="@string/open"
+        android:textColor="#878787"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:src="@drawable/bg_big_add_db" />
+</RelativeLayout>

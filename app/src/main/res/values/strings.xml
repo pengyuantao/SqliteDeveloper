@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SqliteDeveloper</string>
+    <string name="action_settings">Settings</string>
+	
+    <string name="execute_sql">execute</string>
+    <string name="db_remove_error">your db file seems removed!</string>
+    <string name="table_design">Table Design</string>
+    <string name="pick_db">Pick A Database</string>
+    <string name="record_detail">Record Detail</string>
+    <string name="empty_db_dir">No Sqlite Database Found!</string>
+    <string name="open">open database</string>
+    <string name="loading">loading</string>
+</resources>

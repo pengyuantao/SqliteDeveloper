@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/include_title" />
+
+    <RelativeLayout
+        android:id="@+id/layout_sql_query"
+        android:layout_below="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/et_raw_sql"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="2dp"
+            android:layout_toLeftOf="@+id/btn_execute_sql"
+            android:textSize="@dimen/edit_sql_text_size"
+            android:textColor="@color/edit_text_color"
+            android:minLines="2"
+            android:background="@drawable/bg_edit_sql"
+            android:gravity="left|top" />
+
+        <Button
+            android:id="@+id/btn_execute_sql"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp" 
+            android:background="@drawable/ic_query"/>
+    </RelativeLayout>
+
+    <com.peng.sqlitedeveloper.tablefixheaders.TableFixHeaders
+        android:id="@+id/table"
+        android:layout_below="@+id/layout_sql_query"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView android:id="@+id/tv_sql_error"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:background="@color/white"
+        android:textColor="@color/error_text_color"
+        android:textSize="@dimen/error_text_size"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="hello"/>
+</RelativeLayout>
